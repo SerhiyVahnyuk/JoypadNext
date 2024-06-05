@@ -1,11 +1,12 @@
 .main {
     width: 100%;
     height: 100%;
-
 }
-
 .black {
     background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 .frame31 {
@@ -56,4 +57,9 @@
 .image {
     height: 111px;
     width: 111px;
+}
+
+.page{
+    background-image: url(https://cdn.discordapp.com/attachments/890674273860067338/1247580398557462538/bg_achievements.png?ex=66608b49&is=665f39c9&hm=2bde3c7b6b6f9d96079f5778e0388885ae76c12616cdbb72fd17c8a1a957f5e1&);
+    background-size: 100%;
 }
