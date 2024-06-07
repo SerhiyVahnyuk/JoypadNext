@@ -1,6 +1,7 @@
 .main {
     width: 100%;
     height: 100%;
+    background-color: black;
 }
 .black {
     background-color: black;
@@ -60,6 +61,62 @@
 }
 
 .page{
-    background-image: url(https://cdn.discordapp.com/attachments/890674273860067338/1247580398557462538/bg_achievements.png?ex=66608b49&is=665f39c9&hm=2bde3c7b6b6f9d96079f5778e0388885ae76c12616cdbb72fd17c8a1a957f5e1&);
-    background-size: 100%;
+    background: url(http://localhost:8000/image/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap:50px
 }
+
+.achievement{
+    display: flex;
+    background-color: rgba(14, 15, 21, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: 246px;
+    height: 238px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.mainBody{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.progressBar{
+    color: #FF9A1C;
+    background-color: #FF9A1C ;
+    width: 222px;
+    height: 18px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.achievementName{
+    padding: 0;
+    margin: 15px;
+    color: white;
+}
+
+.progressValue{
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    gap: 30px;
+}
+

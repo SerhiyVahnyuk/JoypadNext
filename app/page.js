@@ -10,7 +10,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.mainBody}>
-      <header>
+      <header className={styles.header}>
         <div className={styles.headerLogo}>
           <Image loader={() => `http://localhost:8000/image/logo.png`} src={"http://localhost:8000/image/logo.png"} alt="Logo" width={47} height={47} />
           <h3 className={styles.logo}>Joypad</h3>
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main>
+      <main className={styles.main}>
         <div className={styles.mnn}>
           <div className={styles.mainHalf}>
             <div className={styles.mainTextBlock}>
